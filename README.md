@@ -10,21 +10,21 @@
 - I will be using the New york city - city bike trips data found at https://ride.citibikenyc.com/system-data. Citi Bike is the US largest bike share program, with 25,000 bikes and 1,500 stations across Manhattan, Brooklyn, Queens, the Bronx, Jersery City and Hoboken.
 
 The citi bike trip histories includes:  
-    - bike id  
-    - rideable type  
-    - start time  
-    - stop time  
-    - start_station_id  
-    - start_station_name  
-    - start_station_latitude  
-    - start_station_longitude  
-    - end_station_id  
-    - end_station_name  
-    - end_station_latitude  
-    - end_station_longitude  
-    - usertype  
-    - birth_year  
-    - gender  
+- bike id  
+- rideable type  
+- start time  
+- stop time  
+- start_station_id  
+- start_station_name  
+- start_station_latitude  
+- start_station_longitude  
+- end_station_id  
+- end_station_name  
+- end_station_latitude  
+- end_station_longitude  
+- usertype  
+- birth_year  
+- gender  
 
 
 #### Pipeline
