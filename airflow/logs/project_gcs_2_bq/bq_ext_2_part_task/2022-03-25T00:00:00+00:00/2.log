@@ -1,0 +1,106 @@
+[2022-03-26 09:31:48,286] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: project_gcs_2_bq.bq_ext_2_part_task scheduled__2022-03-25T00:00:00+00:00 [queued]>
+[2022-03-26 09:31:48,301] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: project_gcs_2_bq.bq_ext_2_part_task scheduled__2022-03-25T00:00:00+00:00 [queued]>
+[2022-03-26 09:31:48,302] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 09:31:48,303] {taskinstance.py:1239} INFO - Starting attempt 2 of 3
+[2022-03-26 09:31:48,303] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 09:31:48,324] {taskinstance.py:1259} INFO - Executing <Task(BigQueryInsertJobOperator): bq_ext_2_part_task> on 2022-03-25 00:00:00+00:00
+[2022-03-26 09:31:48,331] {standard_task_runner.py:52} INFO - Started process 2028 to run task
+[2022-03-26 09:31:48,337] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'project_gcs_2_bq', 'bq_ext_2_part_task', 'scheduled__2022-03-25T00:00:00+00:00', '--job-id', '1243', '--raw', '--subdir', 'DAGS_FOLDER/gcs_2_bq.py', '--cfg-path', '/tmp/tmpqhd7j09f', '--error-file', '/tmp/tmpb73k_tnh']
+[2022-03-26 09:31:48,338] {standard_task_runner.py:77} INFO - Job 1243: Subtask bq_ext_2_part_task
+[2022-03-26 09:31:48,423] {logging_mixin.py:109} INFO - Running <TaskInstance: project_gcs_2_bq.bq_ext_2_part_task scheduled__2022-03-25T00:00:00+00:00 [running]> on host c800f4dda314
+[2022-03-26 09:31:48,507] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=project_gcs_2_bq
+AIRFLOW_CTX_TASK_ID=bq_ext_2_part_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-25T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-03-25T00:00:00+00:00
+[2022-03-26 09:31:48,511] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-03-26 09:31:48,512] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-03-26 09:31:48,522] {bigquery.py:1637} INFO - Inserting job ***_project_gcs_2_bq_bq_ext_2_part_task_2022_03_25T00_00_00_00_00_acb6a22e9ed122c21a2a8e219a3bde5a
+[2022-03-26 09:31:49,144] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2287, in execute
+    job = self._submit_job(hook, job_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2253, in _submit_job
+    job_id=job_id,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 430, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 1639, in insert_job
+    job.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1447, in result
+    do_get_result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1437, in do_get_result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/base.py", line 727, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/future/polling.py", line 135, in result
+    raise self._exception
+google.api_core.exceptions.NotFound: 404 Not found: Table healthy-fuze-339218:citibike_project.citibike_table was not found in location EU
+
+(job ID: airflow_project_gcs_2_bq_bq_ext_2_part_task_2022_03_25T00_00_00_00_00_acb6a22e9ed122c21a2a8e219a3bde5a)
+
+                                                                                           -----Query Job SQL Follows-----                                                                                           
+
+    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |
+   1:CREATE OR REPLACE TABLE citibike_project.citibike_table_partitioned_clustered         PARTITION BY DATE(starttime)         CLUSTER BY start_station_id AS         SELECT * FROM citibike_project.citibike_table;
+    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |
+[2022-03-26 09:31:49,184] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=project_gcs_2_bq, task_id=bq_ext_2_part_task, execution_date=20220325T000000, start_date=20220326T093148, end_date=20220326T093149
+[2022-03-26 09:31:49,224] {standard_task_runner.py:92} ERROR - Failed to execute job 1243 for task bq_ext_2_part_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2287, in execute
+    job = self._submit_job(hook, job_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2253, in _submit_job
+    job_id=job_id,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 430, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 1639, in insert_job
+    job.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1447, in result
+    do_get_result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/query.py", line 1437, in do_get_result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/job/base.py", line 727, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/future/polling.py", line 135, in result
+    raise self._exception
+google.api_core.exceptions.NotFound: 404 Not found: Table healthy-fuze-339218:citibike_project.citibike_table was not found in location EU
+
+(job ID: airflow_project_gcs_2_bq_bq_ext_2_part_task_2022_03_25T00_00_00_00_00_acb6a22e9ed122c21a2a8e219a3bde5a)
+
+                                                                                           -----Query Job SQL Follows-----                                                                                           
+
+    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |
+   1:CREATE OR REPLACE TABLE citibike_project.citibike_table_partitioned_clustered         PARTITION BY DATE(starttime)         CLUSTER BY start_station_id AS         SELECT * FROM citibike_project.citibike_table;
+    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |
+[2022-03-26 09:31:49,246] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-03-26 09:31:49,309] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

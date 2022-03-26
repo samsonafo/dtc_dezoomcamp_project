@@ -1,0 +1,75 @@
+[2022-03-23 09:38:36,820] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.format_to_parquet_task scheduled__2021-07-02T06:00:00+00:00 [queued]>
+[2022-03-23 09:38:36,847] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.format_to_parquet_task scheduled__2021-07-02T06:00:00+00:00 [queued]>
+[2022-03-23 09:38:36,848] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-23 09:38:36,849] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-03-23 09:38:36,849] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-23 09:38:36,874] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): format_to_parquet_task> on 2021-07-02 06:00:00+00:00
+[2022-03-23 09:38:36,881] {standard_task_runner.py:52} INFO - Started process 3314 to run task
+[2022-03-23 09:38:36,895] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dtc_project_ingest', 'format_to_parquet_task', 'scheduled__2021-07-02T06:00:00+00:00', '--job-id', '808', '--raw', '--subdir', 'DAGS_FOLDER/project_data_ingestion.py', '--cfg-path', '/tmp/tmpp27ckfx0', '--error-file', '/tmp/tmp4dnus7br']
+[2022-03-23 09:38:36,897] {standard_task_runner.py:77} INFO - Job 808: Subtask format_to_parquet_task
+[2022-03-23 09:38:37,034] {logging_mixin.py:109} INFO - Running <TaskInstance: dtc_project_ingest.format_to_parquet_task scheduled__2021-07-02T06:00:00+00:00 [running]> on host 7127e26385ba
+[2022-03-23 09:38:37,098] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-03-23 09:38:37,127] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dtc_project_ingest
+AIRFLOW_CTX_TASK_ID=format_to_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-07-02T06:00:00+00:00
+[2022-03-23 09:38:44,969] {python.py:175} INFO - Done. Returned value was: None
+[2022-03-23 09:38:44,985] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=dtc_project_ingest, task_id=format_to_parquet_task, execution_date=20210702T060000, start_date=20220323T093836, end_date=20220323T093844
+[2022-03-23 09:38:45,142] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-23 09:38:45,188] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-03-23 17:00:26,793] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.format_to_parquet_task scheduled__2021-07-02T06:00:00+00:00 [queued]>
+[2022-03-23 17:00:26,804] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.format_to_parquet_task scheduled__2021-07-02T06:00:00+00:00 [queued]>
+[2022-03-23 17:00:26,805] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-23 17:00:26,806] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-03-23 17:00:26,806] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-23 17:00:26,819] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): format_to_parquet_task> on 2021-07-02 06:00:00+00:00
+[2022-03-23 17:00:26,825] {standard_task_runner.py:52} INFO - Started process 7295 to run task
+[2022-03-23 17:00:26,831] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dtc_project_ingest', 'format_to_parquet_task', 'scheduled__2021-07-02T06:00:00+00:00', '--job-id', '1136', '--raw', '--subdir', 'DAGS_FOLDER/project_data_ingestion.py', '--cfg-path', '/tmp/tmpqqzpdla2', '--error-file', '/tmp/tmpcs619b5e']
+[2022-03-23 17:00:26,833] {standard_task_runner.py:77} INFO - Job 1136: Subtask format_to_parquet_task
+[2022-03-23 17:00:26,905] {logging_mixin.py:109} INFO - Running <TaskInstance: dtc_project_ingest.format_to_parquet_task scheduled__2021-07-02T06:00:00+00:00 [running]> on host 7127e26385ba
+[2022-03-23 17:00:26,951] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-03-23 17:00:26,990] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dtc_project_ingest
+AIRFLOW_CTX_TASK_ID=format_to_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-07-02T06:00:00+00:00
+[2022-03-23 17:00:34,929] {python.py:175} INFO - Done. Returned value was: None
+[2022-03-23 17:00:34,944] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=dtc_project_ingest, task_id=format_to_parquet_task, execution_date=20210702T060000, start_date=20220323T170026, end_date=20220323T170034
+[2022-03-23 17:00:35,109] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-23 17:00:35,147] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-03-26 11:47:05,742] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.format_to_parquet_task scheduled__2021-07-02T06:00:00+00:00 [queued]>
+[2022-03-26 11:47:05,753] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.format_to_parquet_task scheduled__2021-07-02T06:00:00+00:00 [queued]>
+[2022-03-26 11:47:05,754] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 11:47:05,754] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-03-26 11:47:05,755] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 11:47:05,766] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): format_to_parquet_task> on 2021-07-02 06:00:00+00:00
+[2022-03-26 11:47:05,773] {standard_task_runner.py:52} INFO - Started process 9372 to run task
+[2022-03-26 11:47:05,779] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dtc_project_ingest', 'format_to_parquet_task', 'scheduled__2021-07-02T06:00:00+00:00', '--job-id', '1500', '--raw', '--subdir', 'DAGS_FOLDER/project_data_ingestion.py', '--cfg-path', '/tmp/tmppq9emoyg', '--error-file', '/tmp/tmpftqpzyzo']
+[2022-03-26 11:47:05,781] {standard_task_runner.py:77} INFO - Job 1500: Subtask format_to_parquet_task
+[2022-03-26 11:47:05,852] {logging_mixin.py:109} INFO - Running <TaskInstance: dtc_project_ingest.format_to_parquet_task scheduled__2021-07-02T06:00:00+00:00 [running]> on host c800f4dda314
+[2022-03-26 11:47:05,894] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-03-26 11:47:05,917] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dtc_project_ingest
+AIRFLOW_CTX_TASK_ID=format_to_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-07-02T06:00:00+00:00
+[2022-03-26 11:47:17,636] {python.py:175} INFO - Done. Returned value was: None
+[2022-03-26 11:47:17,734] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=dtc_project_ingest, task_id=format_to_parquet_task, execution_date=20210702T060000, start_date=20220326T114705, end_date=20220326T114717
+[2022-03-26 11:47:17,915] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-26 11:47:17,974] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,1309 @@
+[2022-03-19 13:38:51,115] {processor.py:163} INFO - Started process (PID=41) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:38:51,121] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:38:51,124] {logging_mixin.py:109} INFO - [2022-03-19 13:38:51,124] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:38:51,154] {logging_mixin.py:109} INFO - [2022-03-19 13:38:51,152] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:38:51,201] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:38:51,218] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.110 seconds
+[2022-03-19 13:39:21,293] {processor.py:163} INFO - Started process (PID=62) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:39:21,295] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:39:21,296] {logging_mixin.py:109} INFO - [2022-03-19 13:39:21,296] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:39:21,303] {logging_mixin.py:109} INFO - [2022-03-19 13:39:21,302] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:39:21,351] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:39:21,364] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.074 seconds
+[2022-03-19 13:39:51,394] {processor.py:163} INFO - Started process (PID=92) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:39:51,396] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:39:51,397] {logging_mixin.py:109} INFO - [2022-03-19 13:39:51,397] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:39:51,403] {logging_mixin.py:109} INFO - [2022-03-19 13:39:51,402] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:39:51,423] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:39:51,432] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.041 seconds
+[2022-03-19 13:40:21,513] {processor.py:163} INFO - Started process (PID=111) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:40:21,517] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:40:21,521] {logging_mixin.py:109} INFO - [2022-03-19 13:40:21,521] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:40:21,532] {logging_mixin.py:109} INFO - [2022-03-19 13:40:21,531] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:40:21,554] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:40:21,563] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.054 seconds
+[2022-03-19 13:40:51,621] {processor.py:163} INFO - Started process (PID=141) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:40:51,622] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:40:51,623] {logging_mixin.py:109} INFO - [2022-03-19 13:40:51,623] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:40:51,629] {logging_mixin.py:109} INFO - [2022-03-19 13:40:51,629] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:40:51,647] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:40:51,656] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.039 seconds
+[2022-03-19 13:41:21,723] {processor.py:163} INFO - Started process (PID=164) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:41:21,725] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:41:21,726] {logging_mixin.py:109} INFO - [2022-03-19 13:41:21,726] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:41:21,735] {logging_mixin.py:109} INFO - [2022-03-19 13:41:21,734] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:41:21,757] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:41:21,768] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.049 seconds
+[2022-03-19 13:41:51,835] {processor.py:163} INFO - Started process (PID=193) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:41:51,837] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:41:51,840] {logging_mixin.py:109} INFO - [2022-03-19 13:41:51,840] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:41:51,852] {logging_mixin.py:109} INFO - [2022-03-19 13:41:51,850] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:41:51,882] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:41:51,901] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.073 seconds
+[2022-03-19 13:42:21,942] {processor.py:163} INFO - Started process (PID=213) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:42:21,945] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:42:21,947] {logging_mixin.py:109} INFO - [2022-03-19 13:42:21,946] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:42:21,959] {logging_mixin.py:109} INFO - [2022-03-19 13:42:21,958] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:42:21,984] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:42:21,996] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.059 seconds
+[2022-03-19 13:42:52,073] {processor.py:163} INFO - Started process (PID=235) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:42:52,075] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:42:52,077] {logging_mixin.py:109} INFO - [2022-03-19 13:42:52,076] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:42:52,084] {logging_mixin.py:109} INFO - [2022-03-19 13:42:52,083] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:42:52,106] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:42:52,116] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.051 seconds
+[2022-03-19 13:43:22,372] {processor.py:163} INFO - Started process (PID=257) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:43:22,380] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:43:22,382] {logging_mixin.py:109} INFO - [2022-03-19 13:43:22,382] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:43:22,397] {logging_mixin.py:109} INFO - [2022-03-19 13:43:22,396] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:43:22,425] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:43:22,438] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.074 seconds
+[2022-03-19 13:43:52,603] {processor.py:163} INFO - Started process (PID=289) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:43:52,605] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:43:52,608] {logging_mixin.py:109} INFO - [2022-03-19 13:43:52,608] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:43:52,621] {logging_mixin.py:109} INFO - [2022-03-19 13:43:52,620] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:43:52,658] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:43:52,682] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.086 seconds
+[2022-03-19 13:44:22,751] {processor.py:163} INFO - Started process (PID=310) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:44:22,754] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:44:22,757] {logging_mixin.py:109} INFO - [2022-03-19 13:44:22,757] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:44:22,771] {logging_mixin.py:109} INFO - [2022-03-19 13:44:22,768] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:44:22,807] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:44:22,826] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.080 seconds
+[2022-03-19 13:44:52,895] {processor.py:163} INFO - Started process (PID=331) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:44:52,898] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:44:52,900] {logging_mixin.py:109} INFO - [2022-03-19 13:44:52,900] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:44:52,911] {logging_mixin.py:109} INFO - [2022-03-19 13:44:52,910] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:44:52,938] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:44:52,947] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.058 seconds
+[2022-03-19 13:45:22,973] {processor.py:163} INFO - Started process (PID=364) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:45:22,975] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:45:22,977] {logging_mixin.py:109} INFO - [2022-03-19 13:45:22,977] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:45:22,989] {logging_mixin.py:109} INFO - [2022-03-19 13:45:22,988] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:45:23,006] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:45:23,016] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.047 seconds
+[2022-03-19 13:45:53,107] {processor.py:163} INFO - Started process (PID=384) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:45:53,112] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:45:53,116] {logging_mixin.py:109} INFO - [2022-03-19 13:45:53,115] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:45:53,128] {logging_mixin.py:109} INFO - [2022-03-19 13:45:53,127] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:45:53,152] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:45:53,167] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.072 seconds
+[2022-03-19 13:46:23,275] {processor.py:163} INFO - Started process (PID=404) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:46:23,277] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:46:23,278] {logging_mixin.py:109} INFO - [2022-03-19 13:46:23,278] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:46:23,288] {logging_mixin.py:109} INFO - [2022-03-19 13:46:23,287] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:46:23,308] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:46:23,316] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.046 seconds
+[2022-03-19 13:46:53,362] {processor.py:163} INFO - Started process (PID=435) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:46:53,366] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:46:53,368] {logging_mixin.py:109} INFO - [2022-03-19 13:46:53,368] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:46:53,383] {logging_mixin.py:109} INFO - [2022-03-19 13:46:53,380] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:46:53,422] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:46:53,438] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.082 seconds
+[2022-03-19 13:47:23,546] {processor.py:163} INFO - Started process (PID=456) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:47:23,548] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:47:23,550] {logging_mixin.py:109} INFO - [2022-03-19 13:47:23,550] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:47:23,566] {logging_mixin.py:109} INFO - [2022-03-19 13:47:23,563] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:47:23,597] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:47:23,631] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.098 seconds
+[2022-03-19 13:47:53,735] {processor.py:163} INFO - Started process (PID=476) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:47:53,746] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:47:53,748] {logging_mixin.py:109} INFO - [2022-03-19 13:47:53,748] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:47:53,762] {logging_mixin.py:109} INFO - [2022-03-19 13:47:53,758] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:47:53,796] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:47:53,809] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.088 seconds
+[2022-03-19 13:48:24,037] {processor.py:163} INFO - Started process (PID=504) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:48:24,041] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:48:24,044] {logging_mixin.py:109} INFO - [2022-03-19 13:48:24,044] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:48:24,087] {logging_mixin.py:109} INFO - [2022-03-19 13:48:24,083] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:48:24,173] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:48:24,189] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.159 seconds
+[2022-03-19 13:48:54,245] {processor.py:163} INFO - Started process (PID=525) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:48:54,247] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:48:54,250] {logging_mixin.py:109} INFO - [2022-03-19 13:48:54,250] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:48:54,259] {logging_mixin.py:109} INFO - [2022-03-19 13:48:54,258] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:48:54,281] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:48:54,290] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.049 seconds
+[2022-03-19 13:49:24,367] {processor.py:163} INFO - Started process (PID=547) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:49:24,369] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:49:24,370] {logging_mixin.py:109} INFO - [2022-03-19 13:49:24,370] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:49:24,377] {logging_mixin.py:109} INFO - [2022-03-19 13:49:24,376] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:49:24,396] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:49:24,416] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.053 seconds
+[2022-03-19 13:49:54,478] {processor.py:163} INFO - Started process (PID=577) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:49:54,482] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:49:54,485] {logging_mixin.py:109} INFO - [2022-03-19 13:49:54,485] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:49:54,499] {logging_mixin.py:109} INFO - [2022-03-19 13:49:54,497] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:49:54,530] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:49:54,545] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.073 seconds
+[2022-03-19 13:50:24,649] {processor.py:163} INFO - Started process (PID=598) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:50:24,652] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:50:24,654] {logging_mixin.py:109} INFO - [2022-03-19 13:50:24,654] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:50:24,666] {logging_mixin.py:109} INFO - [2022-03-19 13:50:24,665] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:50:24,698] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:50:24,711] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.070 seconds
+[2022-03-19 13:50:54,935] {processor.py:163} INFO - Started process (PID=621) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:50:54,937] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:50:54,939] {logging_mixin.py:109} INFO - [2022-03-19 13:50:54,938] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:50:54,955] {logging_mixin.py:109} INFO - [2022-03-19 13:50:54,953] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:50:54,987] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:50:55,005] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.075 seconds
+[2022-03-19 13:51:25,162] {processor.py:163} INFO - Started process (PID=643) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:51:25,172] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:51:25,183] {logging_mixin.py:109} INFO - [2022-03-19 13:51:25,183] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:51:25,228] {logging_mixin.py:109} INFO - [2022-03-19 13:51:25,225] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:51:25,296] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:51:25,323] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.179 seconds
+[2022-03-19 13:51:55,431] {processor.py:163} INFO - Started process (PID=673) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:51:55,440] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:51:55,449] {logging_mixin.py:109} INFO - [2022-03-19 13:51:55,448] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:51:55,484] {logging_mixin.py:109} INFO - [2022-03-19 13:51:55,483] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:51:55,526] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:51:55,540] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.122 seconds
+[2022-03-19 13:52:25,642] {processor.py:163} INFO - Started process (PID=694) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:52:25,646] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:52:25,648] {logging_mixin.py:109} INFO - [2022-03-19 13:52:25,648] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:52:25,661] {logging_mixin.py:109} INFO - [2022-03-19 13:52:25,659] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:52:25,681] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:52:25,691] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.055 seconds
+[2022-03-19 13:52:55,740] {processor.py:163} INFO - Started process (PID=726) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:52:55,742] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:52:55,743] {logging_mixin.py:109} INFO - [2022-03-19 13:52:55,743] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:52:55,750] {logging_mixin.py:109} INFO - [2022-03-19 13:52:55,749] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:52:55,771] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:52:55,782] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.047 seconds
+[2022-03-19 13:53:25,838] {processor.py:163} INFO - Started process (PID=746) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:53:25,842] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:53:25,844] {logging_mixin.py:109} INFO - [2022-03-19 13:53:25,844] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:53:25,857] {logging_mixin.py:109} INFO - [2022-03-19 13:53:25,857] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:53:25,879] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:53:25,889] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.061 seconds
+[2022-03-19 13:53:55,963] {processor.py:163} INFO - Started process (PID=777) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:53:55,964] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:53:55,966] {logging_mixin.py:109} INFO - [2022-03-19 13:53:55,965] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:53:55,973] {logging_mixin.py:109} INFO - [2022-03-19 13:53:55,971] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:53:55,993] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:53:56,003] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.043 seconds
+[2022-03-19 13:55:49,766] {processor.py:163} INFO - Started process (PID=41) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:55:49,769] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:55:49,771] {logging_mixin.py:109} INFO - [2022-03-19 13:55:49,770] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:55:49,786] {logging_mixin.py:109} INFO - [2022-03-19 13:55:49,784] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:55:49,819] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:55:49,842] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.083 seconds
+[2022-03-19 13:56:19,975] {processor.py:163} INFO - Started process (PID=62) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:56:19,977] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:56:19,978] {logging_mixin.py:109} INFO - [2022-03-19 13:56:19,978] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:56:19,986] {logging_mixin.py:109} INFO - [2022-03-19 13:56:19,985] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:56:20,008] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:56:20,020] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.049 seconds
+[2022-03-19 13:56:50,341] {processor.py:163} INFO - Started process (PID=83) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:56:50,353] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:56:50,360] {logging_mixin.py:109} INFO - [2022-03-19 13:56:50,360] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:56:50,397] {logging_mixin.py:109} INFO - [2022-03-19 13:56:50,395] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:56:50,469] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:56:50,512] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.180 seconds
+[2022-03-19 13:57:20,596] {processor.py:163} INFO - Started process (PID=105) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:57:20,601] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:57:20,604] {logging_mixin.py:109} INFO - [2022-03-19 13:57:20,604] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:57:20,624] {logging_mixin.py:109} INFO - [2022-03-19 13:57:20,622] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:57:20,664] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:57:20,691] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.101 seconds
+[2022-03-19 13:57:50,732] {processor.py:163} INFO - Started process (PID=127) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:57:50,735] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:57:50,737] {logging_mixin.py:109} INFO - [2022-03-19 13:57:50,736] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:57:50,749] {logging_mixin.py:109} INFO - [2022-03-19 13:57:50,748] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:57:50,779] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:57:50,796] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.069 seconds
+[2022-03-19 13:58:20,880] {processor.py:163} INFO - Started process (PID=158) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:58:20,883] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:58:20,886] {logging_mixin.py:109} INFO - [2022-03-19 13:58:20,886] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:58:20,914] {logging_mixin.py:109} INFO - [2022-03-19 13:58:20,907] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:58:20,952] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:58:20,969] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.096 seconds
+[2022-03-19 13:58:51,040] {processor.py:163} INFO - Started process (PID=180) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:58:51,043] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:58:51,046] {logging_mixin.py:109} INFO - [2022-03-19 13:58:51,046] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:58:51,068] {logging_mixin.py:109} INFO - [2022-03-19 13:58:51,066] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:58:51,135] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:58:51,159] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.124 seconds
+[2022-03-19 13:59:21,240] {processor.py:163} INFO - Started process (PID=202) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:59:21,247] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:59:21,249] {logging_mixin.py:109} INFO - [2022-03-19 13:59:21,249] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:59:21,262] {logging_mixin.py:109} INFO - [2022-03-19 13:59:21,260] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:59:21,293] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:59:21,308] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.074 seconds
+[2022-03-19 13:59:51,395] {processor.py:163} INFO - Started process (PID=233) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:59:51,397] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 13:59:51,398] {logging_mixin.py:109} INFO - [2022-03-19 13:59:51,398] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:59:51,405] {logging_mixin.py:109} INFO - [2022-03-19 13:59:51,404] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 13:59:51,425] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 13:59:51,434] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.043 seconds
+[2022-03-19 14:00:21,534] {processor.py:163} INFO - Started process (PID=253) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:00:21,538] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:00:21,540] {logging_mixin.py:109} INFO - [2022-03-19 14:00:21,540] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:00:21,547] {logging_mixin.py:109} INFO - [2022-03-19 14:00:21,546] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:00:21,575] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:00:21,586] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.056 seconds
+[2022-03-19 14:00:52,320] {processor.py:163} INFO - Started process (PID=272) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:00:52,326] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:00:52,330] {logging_mixin.py:109} INFO - [2022-03-19 14:00:52,329] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:00:52,373] {logging_mixin.py:109} INFO - [2022-03-19 14:00:52,358] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:00:52,443] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:00:52,471] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.169 seconds
+[2022-03-19 14:01:22,595] {processor.py:163} INFO - Started process (PID=293) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:01:22,598] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:01:22,600] {logging_mixin.py:109} INFO - [2022-03-19 14:01:22,600] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:01:22,612] {logging_mixin.py:109} INFO - [2022-03-19 14:01:22,611] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:01:22,638] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:01:22,653] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.063 seconds
+[2022-03-19 14:01:26,616] {processor.py:163} INFO - Started process (PID=306) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:01:26,622] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:01:26,625] {logging_mixin.py:109} INFO - [2022-03-19 14:01:26,625] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:01:26,652] {logging_mixin.py:109} INFO - [2022-03-19 14:01:26,651] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:01:26,695] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:01:26,710] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.103 seconds
+[2022-03-19 14:01:27,704] {processor.py:163} INFO - Started process (PID=307) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:01:27,706] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:01:27,708] {logging_mixin.py:109} INFO - [2022-03-19 14:01:27,708] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:01:27,727] {logging_mixin.py:109} INFO - [2022-03-19 14:01:27,724] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:01:27,764] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:01:27,783] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.084 seconds
+[2022-03-19 14:01:57,874] {processor.py:163} INFO - Started process (PID=330) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:01:57,877] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:01:57,879] {logging_mixin.py:109} INFO - [2022-03-19 14:01:57,879] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:01:57,889] {logging_mixin.py:109} INFO - [2022-03-19 14:01:57,888] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:01:57,912] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:01:57,926] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.056 seconds
+[2022-03-19 14:02:27,987] {processor.py:163} INFO - Started process (PID=361) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:02:27,989] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:02:27,990] {logging_mixin.py:109} INFO - [2022-03-19 14:02:27,990] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:02:27,998] {logging_mixin.py:109} INFO - [2022-03-19 14:02:27,997] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:02:28,016] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:02:28,025] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.042 seconds
+[2022-03-19 14:02:58,106] {processor.py:163} INFO - Started process (PID=380) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:02:58,109] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:02:58,110] {logging_mixin.py:109} INFO - [2022-03-19 14:02:58,110] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:02:58,118] {logging_mixin.py:109} INFO - [2022-03-19 14:02:58,117] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:02:58,136] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:02:58,146] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.043 seconds
+[2022-03-19 14:03:28,225] {processor.py:163} INFO - Started process (PID=400) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:03:28,227] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:03:28,229] {logging_mixin.py:109} INFO - [2022-03-19 14:03:28,229] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:03:28,238] {logging_mixin.py:109} INFO - [2022-03-19 14:03:28,236] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:03:28,262] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:03:28,274] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.053 seconds
+[2022-03-19 14:03:58,349] {processor.py:163} INFO - Started process (PID=432) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:03:58,353] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:03:58,356] {logging_mixin.py:109} INFO - [2022-03-19 14:03:58,355] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:03:58,369] {logging_mixin.py:109} INFO - [2022-03-19 14:03:58,367] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:03:58,400] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:03:58,441] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.103 seconds
+[2022-03-19 14:04:28,564] {processor.py:163} INFO - Started process (PID=452) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:04:28,567] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:04:28,568] {logging_mixin.py:109} INFO - [2022-03-19 14:04:28,568] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:04:28,578] {logging_mixin.py:109} INFO - [2022-03-19 14:04:28,577] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:04:28,602] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:04:28,615] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.058 seconds
+[2022-03-19 14:04:58,663] {processor.py:163} INFO - Started process (PID=485) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:04:58,664] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:04:58,666] {logging_mixin.py:109} INFO - [2022-03-19 14:04:58,665] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:04:58,673] {logging_mixin.py:109} INFO - [2022-03-19 14:04:58,671] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:04:58,691] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:04:58,700] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.041 seconds
+[2022-03-19 14:05:28,776] {processor.py:163} INFO - Started process (PID=506) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:05:28,780] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:05:28,782] {logging_mixin.py:109} INFO - [2022-03-19 14:05:28,782] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:05:28,794] {logging_mixin.py:109} INFO - [2022-03-19 14:05:28,792] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:05:28,820] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:05:28,831] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.063 seconds
+[2022-03-19 14:05:58,908] {processor.py:163} INFO - Started process (PID=527) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:05:58,911] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:05:58,912] {logging_mixin.py:109} INFO - [2022-03-19 14:05:58,912] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:05:58,919] {logging_mixin.py:109} INFO - [2022-03-19 14:05:58,917] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:05:58,943] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:05:58,957] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.052 seconds
+[2022-03-19 14:06:29,023] {processor.py:163} INFO - Started process (PID=559) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:06:29,024] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:06:29,025] {logging_mixin.py:109} INFO - [2022-03-19 14:06:29,025] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:06:29,033] {logging_mixin.py:109} INFO - [2022-03-19 14:06:29,032] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:06:29,052] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:06:29,075] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.055 seconds
+[2022-03-19 14:06:59,142] {processor.py:163} INFO - Started process (PID=581) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:06:59,144] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:06:59,145] {logging_mixin.py:109} INFO - [2022-03-19 14:06:59,145] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:06:59,154] {logging_mixin.py:109} INFO - [2022-03-19 14:06:59,152] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:06:59,175] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:06:59,189] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.052 seconds
+[2022-03-19 14:07:30,012] {processor.py:163} INFO - Started process (PID=612) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:07:30,308] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:07:30,614] {logging_mixin.py:109} INFO - [2022-03-19 14:07:30,613] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:07:30,784] {logging_mixin.py:109} INFO - [2022-03-19 14:07:30,773] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:07:31,342] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:07:31,654] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 1.738 seconds
+[2022-03-19 14:08:02,032] {processor.py:163} INFO - Started process (PID=633) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:08:02,035] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:08:02,038] {logging_mixin.py:109} INFO - [2022-03-19 14:08:02,038] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:08:02,050] {logging_mixin.py:109} INFO - [2022-03-19 14:08:02,047] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:08:02,082] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:08:02,096] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.070 seconds
+[2022-03-19 14:08:32,225] {processor.py:163} INFO - Started process (PID=654) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:08:32,229] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:08:32,232] {logging_mixin.py:109} INFO - [2022-03-19 14:08:32,232] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:08:32,248] {logging_mixin.py:109} INFO - [2022-03-19 14:08:32,246] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:08:32,297] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:08:32,318] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.101 seconds
+[2022-03-19 14:09:02,371] {processor.py:163} INFO - Started process (PID=674) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:09:02,374] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:09:02,377] {logging_mixin.py:109} INFO - [2022-03-19 14:09:02,376] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:09:02,387] {logging_mixin.py:109} INFO - [2022-03-19 14:09:02,386] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:09:02,418] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:09:02,436] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.072 seconds
+[2022-03-19 14:09:32,556] {processor.py:163} INFO - Started process (PID=695) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:09:32,560] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:09:32,563] {logging_mixin.py:109} INFO - [2022-03-19 14:09:32,563] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:09:32,582] {logging_mixin.py:109} INFO - [2022-03-19 14:09:32,581] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:09:32,619] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:09:32,675] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.127 seconds
+[2022-03-19 14:10:02,748] {processor.py:163} INFO - Started process (PID=726) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:10:02,752] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:10:02,756] {logging_mixin.py:109} INFO - [2022-03-19 14:10:02,756] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:10:02,781] {logging_mixin.py:109} INFO - [2022-03-19 14:10:02,769] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:10:02,826] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:10:02,847] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.110 seconds
+[2022-03-19 14:10:32,956] {processor.py:163} INFO - Started process (PID=737) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:10:32,962] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:10:32,966] {logging_mixin.py:109} INFO - [2022-03-19 14:10:32,966] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:10:32,983] {logging_mixin.py:109} INFO - [2022-03-19 14:10:32,982] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:10:33,030] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:10:33,051] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.105 seconds
+[2022-03-19 14:11:03,122] {processor.py:163} INFO - Started process (PID=758) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:11:03,128] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:11:03,133] {logging_mixin.py:109} INFO - [2022-03-19 14:11:03,133] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:11:03,143] {logging_mixin.py:109} INFO - [2022-03-19 14:11:03,142] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:11:03,177] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:11:03,199] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.090 seconds
+[2022-03-19 14:11:33,569] {processor.py:163} INFO - Started process (PID=780) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:11:33,576] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:11:33,582] {logging_mixin.py:109} INFO - [2022-03-19 14:11:33,581] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:11:33,614] {logging_mixin.py:109} INFO - [2022-03-19 14:11:33,607] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:11:33,668] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:11:33,699] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.145 seconds
+[2022-03-19 14:12:03,928] {processor.py:163} INFO - Started process (PID=803) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:12:03,930] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:12:03,932] {logging_mixin.py:109} INFO - [2022-03-19 14:12:03,932] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:12:03,944] {logging_mixin.py:109} INFO - [2022-03-19 14:12:03,943] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:12:03,979] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:12:03,992] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.068 seconds
+[2022-03-19 14:12:34,055] {processor.py:163} INFO - Started process (PID=825) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:12:34,057] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:12:34,058] {logging_mixin.py:109} INFO - [2022-03-19 14:12:34,058] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:12:34,070] {logging_mixin.py:109} INFO - [2022-03-19 14:12:34,069] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:12:34,091] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:12:34,102] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.051 seconds
+[2022-03-19 14:13:04,333] {processor.py:163} INFO - Started process (PID=856) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:13:04,340] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:13:04,348] {logging_mixin.py:109} INFO - [2022-03-19 14:13:04,348] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:13:04,402] {logging_mixin.py:109} INFO - [2022-03-19 14:13:04,391] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:13:04,491] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:13:04,520] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.201 seconds
+[2022-03-19 14:13:34,663] {processor.py:163} INFO - Started process (PID=879) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:13:34,667] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:13:34,670] {logging_mixin.py:109} INFO - [2022-03-19 14:13:34,670] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:13:34,685] {logging_mixin.py:109} INFO - [2022-03-19 14:13:34,683] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:13:34,720] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:13:34,747] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.092 seconds
+[2022-03-19 14:14:04,811] {processor.py:163} INFO - Started process (PID=899) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:14:04,816] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:14:04,819] {logging_mixin.py:109} INFO - [2022-03-19 14:14:04,819] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:14:04,835] {logging_mixin.py:109} INFO - [2022-03-19 14:14:04,834] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:14:04,887] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:14:04,905] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.104 seconds
+[2022-03-19 14:14:35,317] {processor.py:163} INFO - Started process (PID=924) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:14:35,338] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:14:35,344] {logging_mixin.py:109} INFO - [2022-03-19 14:14:35,343] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:14:35,379] {logging_mixin.py:109} INFO - [2022-03-19 14:14:35,373] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:14:35,477] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:14:35,524] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.248 seconds
+[2022-03-19 14:15:05,647] {processor.py:163} INFO - Started process (PID=945) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:15:05,650] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:15:05,652] {logging_mixin.py:109} INFO - [2022-03-19 14:15:05,652] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:15:05,663] {logging_mixin.py:109} INFO - [2022-03-19 14:15:05,662] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:15:05,693] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:15:05,712] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.071 seconds
+[2022-03-19 14:15:35,799] {processor.py:163} INFO - Started process (PID=966) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:15:35,830] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:15:35,837] {logging_mixin.py:109} INFO - [2022-03-19 14:15:35,837] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:15:35,904] {logging_mixin.py:109} INFO - [2022-03-19 14:15:35,898] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:15:36,017] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:15:36,105] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.316 seconds
+[2022-03-19 14:16:06,468] {processor.py:163} INFO - Started process (PID=976) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:16:06,471] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:16:06,472] {logging_mixin.py:109} INFO - [2022-03-19 14:16:06,472] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:16:06,480] {logging_mixin.py:109} INFO - [2022-03-19 14:16:06,479] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:16:06,500] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:16:06,511] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.047 seconds
+[2022-03-19 14:16:36,895] {processor.py:163} INFO - Started process (PID=1006) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:16:36,897] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:16:36,898] {logging_mixin.py:109} INFO - [2022-03-19 14:16:36,898] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:16:36,906] {logging_mixin.py:109} INFO - [2022-03-19 14:16:36,905] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:16:36,925] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:16:36,940] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.047 seconds
+[2022-03-19 14:17:07,307] {processor.py:163} INFO - Started process (PID=1029) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:17:07,310] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:17:07,312] {logging_mixin.py:109} INFO - [2022-03-19 14:17:07,312] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:17:07,321] {logging_mixin.py:109} INFO - [2022-03-19 14:17:07,319] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:17:07,346] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:17:07,362] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.060 seconds
+[2022-03-19 14:17:38,262] {processor.py:163} INFO - Started process (PID=1051) to work on /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:17:38,270] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion.py for tasks to queue
+[2022-03-19 14:17:38,276] {logging_mixin.py:109} INFO - [2022-03-19 14:17:38,276] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:17:38,302] {logging_mixin.py:109} INFO - [2022-03-19 14:17:38,300] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.py", line 110
+    https://s3.amazonaws.com/tripdata/201804-citibike-tripdata.csv.zip
+           ^
+SyntaxError: invalid syntax
+[2022-03-19 14:17:38,367] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.py
+[2022-03-19 14:17:38,393] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion.py took 0.157 seconds

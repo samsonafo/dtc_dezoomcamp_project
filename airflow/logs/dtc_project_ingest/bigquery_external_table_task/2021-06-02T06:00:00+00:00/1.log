@@ -1,0 +1,47 @@
+[2022-03-23 22:37:01,261] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.bigquery_external_table_task scheduled__2021-06-02T06:00:00+00:00 [queued]>
+[2022-03-23 22:37:01,273] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.bigquery_external_table_task scheduled__2021-06-02T06:00:00+00:00 [queued]>
+[2022-03-23 22:37:01,274] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-23 22:37:01,275] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-03-23 22:37:01,276] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-23 22:37:01,290] {taskinstance.py:1259} INFO - Executing <Task(BigQueryCreateExternalTableOperator): bigquery_external_table_task> on 2021-06-02 06:00:00+00:00
+[2022-03-23 22:37:01,304] {standard_task_runner.py:52} INFO - Started process 798 to run task
+[2022-03-23 22:37:01,308] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dtc_project_ingest', 'bigquery_external_table_task', 'scheduled__2021-06-02T06:00:00+00:00', '--job-id', '1204', '--raw', '--subdir', 'DAGS_FOLDER/project_data_ingestion.py', '--cfg-path', '/tmp/tmpra7rf0zd', '--error-file', '/tmp/tmp8d5zy9hi']
+[2022-03-23 22:37:01,309] {standard_task_runner.py:77} INFO - Job 1204: Subtask bigquery_external_table_task
+[2022-03-23 22:37:01,384] {logging_mixin.py:109} INFO - Running <TaskInstance: dtc_project_ingest.bigquery_external_table_task scheduled__2021-06-02T06:00:00+00:00 [running]> on host 7127e26385ba
+[2022-03-23 22:37:01,433] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-03-23 22:37:01,458] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dtc_project_ingest
+AIRFLOW_CTX_TASK_ID=bigquery_external_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-06-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-06-02T06:00:00+00:00
+[2022-03-23 22:37:01,460] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-03-23 22:37:03,332] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=dtc_project_ingest, task_id=bigquery_external_table_task, execution_date=20210602T060000, start_date=20220323T223701, end_date=20220323T223703
+[2022-03-23 22:37:03,372] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-23 22:37:03,417] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-03-26 11:58:12,816] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.bigquery_external_table_task scheduled__2021-06-02T06:00:00+00:00 [queued]>
+[2022-03-26 11:58:12,841] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.bigquery_external_table_task scheduled__2021-06-02T06:00:00+00:00 [queued]>
+[2022-03-26 11:58:12,843] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 11:58:12,844] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-03-26 11:58:12,845] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 11:58:12,865] {taskinstance.py:1259} INFO - Executing <Task(BigQueryCreateExternalTableOperator): bigquery_external_table_task> on 2021-06-02 06:00:00+00:00
+[2022-03-26 11:58:12,876] {standard_task_runner.py:52} INFO - Started process 9936 to run task
+[2022-03-26 11:58:12,883] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dtc_project_ingest', 'bigquery_external_table_task', 'scheduled__2021-06-02T06:00:00+00:00', '--job-id', '1511', '--raw', '--subdir', 'DAGS_FOLDER/project_data_ingestion.py', '--cfg-path', '/tmp/tmped5hjawt', '--error-file', '/tmp/tmpe6idgt12']
+[2022-03-26 11:58:12,888] {standard_task_runner.py:77} INFO - Job 1511: Subtask bigquery_external_table_task
+[2022-03-26 11:58:12,986] {logging_mixin.py:109} INFO - Running <TaskInstance: dtc_project_ingest.bigquery_external_table_task scheduled__2021-06-02T06:00:00+00:00 [running]> on host c800f4dda314
+[2022-03-26 11:58:13,078] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dtc_project_ingest
+AIRFLOW_CTX_TASK_ID=bigquery_external_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-06-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-06-02T06:00:00+00:00
+[2022-03-26 11:58:13,082] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-03-26 11:58:35,212] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=dtc_project_ingest, task_id=bigquery_external_table_task, execution_date=20210602T060000, start_date=20220326T115812, end_date=20220326T115835
+[2022-03-26 11:58:35,257] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-26 11:58:35,289] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

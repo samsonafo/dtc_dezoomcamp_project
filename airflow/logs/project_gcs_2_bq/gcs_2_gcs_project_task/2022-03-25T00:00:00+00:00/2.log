@@ -1,0 +1,46 @@
+[2022-03-26 09:31:48,244] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: project_gcs_2_bq.gcs_2_gcs_project_task scheduled__2022-03-25T00:00:00+00:00 [queued]>
+[2022-03-26 09:31:48,259] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: project_gcs_2_bq.gcs_2_gcs_project_task scheduled__2022-03-25T00:00:00+00:00 [queued]>
+[2022-03-26 09:31:48,260] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 09:31:48,261] {taskinstance.py:1239} INFO - Starting attempt 2 of 3
+[2022-03-26 09:31:48,261] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 09:31:48,275] {taskinstance.py:1259} INFO - Executing <Task(GCSToGCSOperator): gcs_2_gcs_project_task> on 2022-03-25 00:00:00+00:00
+[2022-03-26 09:31:48,282] {standard_task_runner.py:52} INFO - Started process 2027 to run task
+[2022-03-26 09:31:48,298] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'project_gcs_2_bq', 'gcs_2_gcs_project_task', 'scheduled__2022-03-25T00:00:00+00:00', '--job-id', '1242', '--raw', '--subdir', 'DAGS_FOLDER/gcs_2_bq.py', '--cfg-path', '/tmp/tmpt3hho5hb', '--error-file', '/tmp/tmptwbwz3sv']
+[2022-03-26 09:31:48,302] {standard_task_runner.py:77} INFO - Job 1242: Subtask gcs_2_gcs_project_task
+[2022-03-26 09:31:48,399] {logging_mixin.py:109} INFO - Running <TaskInstance: project_gcs_2_bq.gcs_2_gcs_project_task scheduled__2022-03-25T00:00:00+00:00 [running]> on host c800f4dda314
+[2022-03-26 09:31:48,469] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=project_gcs_2_bq
+AIRFLOW_CTX_TASK_ID=gcs_2_gcs_project_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-25T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-03-25T00:00:00+00:00
+[2022-03-26 09:31:48,473] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-03-26 09:31:48,475] {gcs_to_gcs.py:346} INFO - Delimiter ignored because wildcard is in prefix
+[2022-03-26 09:31:49,005] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=project_gcs_2_bq, task_id=gcs_2_gcs_project_task, execution_date=20220325T000000, start_date=20220326T093148, end_date=20220326T093149
+[2022-03-26 09:31:49,079] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-26 09:31:49,127] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-03-26 10:02:41,515] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: project_gcs_2_bq.gcs_2_gcs_project_task scheduled__2022-03-25T00:00:00+00:00 [queued]>
+[2022-03-26 10:02:41,531] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: project_gcs_2_bq.gcs_2_gcs_project_task scheduled__2022-03-25T00:00:00+00:00 [queued]>
+[2022-03-26 10:02:41,534] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 10:02:41,535] {taskinstance.py:1239} INFO - Starting attempt 2 of 3
+[2022-03-26 10:02:41,536] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 10:02:41,551] {taskinstance.py:1259} INFO - Executing <Task(GCSToGCSOperator): gcs_2_gcs_project_task> on 2022-03-25 00:00:00+00:00
+[2022-03-26 10:02:41,562] {standard_task_runner.py:52} INFO - Started process 3495 to run task
+[2022-03-26 10:02:41,573] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'project_gcs_2_bq', 'gcs_2_gcs_project_task', 'scheduled__2022-03-25T00:00:00+00:00', '--job-id', '1255', '--raw', '--subdir', 'DAGS_FOLDER/gcs_2_bq.py', '--cfg-path', '/tmp/tmplk0eiw1a', '--error-file', '/tmp/tmpugqtdu5y']
+[2022-03-26 10:02:41,575] {standard_task_runner.py:77} INFO - Job 1255: Subtask gcs_2_gcs_project_task
+[2022-03-26 10:02:41,689] {logging_mixin.py:109} INFO - Running <TaskInstance: project_gcs_2_bq.gcs_2_gcs_project_task scheduled__2022-03-25T00:00:00+00:00 [running]> on host c800f4dda314
+[2022-03-26 10:02:41,767] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=project_gcs_2_bq
+AIRFLOW_CTX_TASK_ID=gcs_2_gcs_project_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-25T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-03-25T00:00:00+00:00
+[2022-03-26 10:02:41,771] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-03-26 10:02:41,772] {gcs_to_gcs.py:346} INFO - Delimiter ignored because wildcard is in prefix
+[2022-03-26 10:02:43,426] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=project_gcs_2_bq, task_id=gcs_2_gcs_project_task, execution_date=20220325T000000, start_date=20220326T100241, end_date=20220326T100243
+[2022-03-26 10:02:43,480] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-26 10:02:43,540] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

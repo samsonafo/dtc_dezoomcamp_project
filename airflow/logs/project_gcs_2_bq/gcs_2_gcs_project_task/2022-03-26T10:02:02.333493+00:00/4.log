@@ -1,0 +1,36 @@
+[2022-03-26 15:27:56,330] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: project_gcs_2_bq.gcs_2_gcs_project_task manual__2022-03-26T10:02:02.333493+00:00 [queued]>
+[2022-03-26 15:27:56,369] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: project_gcs_2_bq.gcs_2_gcs_project_task manual__2022-03-26T10:02:02.333493+00:00 [queued]>
+[2022-03-26 15:27:56,371] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 15:27:56,374] {taskinstance.py:1239} INFO - Starting attempt 4 of 5
+[2022-03-26 15:27:56,376] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 15:27:56,405] {taskinstance.py:1259} INFO - Executing <Task(GCSToGCSOperator): gcs_2_gcs_project_task> on 2022-03-26 10:02:02.333493+00:00
+[2022-03-26 15:27:56,423] {standard_task_runner.py:52} INFO - Started process 19905 to run task
+[2022-03-26 15:27:56,435] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'project_gcs_2_bq', 'gcs_2_gcs_project_task', 'manual__2022-03-26T10:02:02.333493+00:00', '--job-id', '1564', '--raw', '--subdir', 'DAGS_FOLDER/gcs_2_bq.py', '--cfg-path', '/tmp/tmphj8ebe49', '--error-file', '/tmp/tmp3zrksnu8']
+[2022-03-26 15:27:56,439] {standard_task_runner.py:77} INFO - Job 1564: Subtask gcs_2_gcs_project_task
+[2022-03-26 15:27:56,666] {logging_mixin.py:109} INFO - Running <TaskInstance: project_gcs_2_bq.gcs_2_gcs_project_task manual__2022-03-26T10:02:02.333493+00:00 [running]> on host c800f4dda314
+[2022-03-26 15:27:56,786] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=project_gcs_2_bq
+AIRFLOW_CTX_TASK_ID=gcs_2_gcs_project_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-26T10:02:02.333493+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-26T10:02:02.333493+00:00
+[2022-03-26 15:27:56,793] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-03-26 15:27:56,795] {gcs_to_gcs.py:346} INFO - Delimiter ignored because wildcard is in prefix
+[2022-03-26 15:27:58,111] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/new_raw/201804-citibike-tripdata.parquet to gs://dtc_citibike_project/new_citi_bike_files/201804-citibike-tripdata.parquet
+[2022-03-26 15:27:58,467] {gcs.py:251} INFO - Total Bytes: 31839243 | Bytes Written: 31839243
+[2022-03-26 15:27:58,469] {gcs.py:264} INFO - Object new_raw/201804-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object new_citi_bike_files/201804-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 15:27:58,470] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/new_raw/201803-citibike-tripdata.parquet to gs://dtc_citibike_project/new_citi_bike_files/201803-citibike-tripdata.parquet
+[2022-03-26 15:27:58,787] {gcs.py:251} INFO - Total Bytes: 23955033 | Bytes Written: 23955033
+[2022-03-26 15:27:58,789] {gcs.py:264} INFO - Object new_raw/201803-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object new_citi_bike_files/201803-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 15:27:58,797] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/new_raw/201802-citibike-tripdata.parquet to gs://dtc_citibike_project/new_citi_bike_files/201802-citibike-tripdata.parquet
+[2022-03-26 15:27:59,175] {gcs.py:251} INFO - Total Bytes: 20783211 | Bytes Written: 20783211
+[2022-03-26 15:27:59,176] {gcs.py:264} INFO - Object new_raw/201802-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object new_citi_bike_files/201802-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 15:27:59,177] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/new_raw/201801-citibike-tripdata.parquet to gs://dtc_citibike_project/new_citi_bike_files/201801-citibike-tripdata.parquet
+[2022-03-26 15:27:59,500] {gcs.py:251} INFO - Total Bytes: 17879550 | Bytes Written: 17879550
+[2022-03-26 15:27:59,508] {gcs.py:264} INFO - Object new_raw/201801-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object new_citi_bike_files/201801-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 15:27:59,566] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=project_gcs_2_bq, task_id=gcs_2_gcs_project_task, execution_date=20220326T100202, start_date=20220326T152756, end_date=20220326T152759
+[2022-03-26 15:27:59,736] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-26 15:27:59,810] {dagrun.py:628} WARNING - Failed to get task '<TaskInstance: project_gcs_2_bq.bigquery_external_table_project_task manual__2022-03-26T10:02:02.333493+00:00 [removed]>' for dag 'project_gcs_2_bq'. Marking it as removed.
+[2022-03-26 15:27:59,822] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

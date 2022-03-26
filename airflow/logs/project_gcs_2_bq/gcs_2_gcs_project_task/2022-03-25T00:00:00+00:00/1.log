@@ -1,0 +1,234 @@
+[2022-03-26 09:25:38,842] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: project_gcs_2_bq.gcs_2_gcs_project_task scheduled__2022-03-25T00:00:00+00:00 [queued]>
+[2022-03-26 09:25:38,855] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: project_gcs_2_bq.gcs_2_gcs_project_task scheduled__2022-03-25T00:00:00+00:00 [queued]>
+[2022-03-26 09:25:38,856] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 09:25:38,857] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-03-26 09:25:38,858] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 09:25:38,871] {taskinstance.py:1259} INFO - Executing <Task(GCSToGCSOperator): gcs_2_gcs_project_task> on 2022-03-25 00:00:00+00:00
+[2022-03-26 09:25:38,880] {standard_task_runner.py:52} INFO - Started process 1720 to run task
+[2022-03-26 09:25:38,884] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'project_gcs_2_bq', 'gcs_2_gcs_project_task', 'scheduled__2022-03-25T00:00:00+00:00', '--job-id', '1235', '--raw', '--subdir', 'DAGS_FOLDER/gcs_2_bq.py', '--cfg-path', '/tmp/tmpxqp8mdit', '--error-file', '/tmp/tmptyab028_']
+[2022-03-26 09:25:38,886] {standard_task_runner.py:77} INFO - Job 1235: Subtask gcs_2_gcs_project_task
+[2022-03-26 09:25:38,952] {logging_mixin.py:109} INFO - Running <TaskInstance: project_gcs_2_bq.gcs_2_gcs_project_task scheduled__2022-03-25T00:00:00+00:00 [running]> on host c800f4dda314
+[2022-03-26 09:25:39,012] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=project_gcs_2_bq
+AIRFLOW_CTX_TASK_ID=gcs_2_gcs_project_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-25T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-03-25T00:00:00+00:00
+[2022-03-26 09:25:39,015] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-03-26 09:25:39,017] {gcs_to_gcs.py:346} INFO - Delimiter ignored because wildcard is in prefix
+[2022-03-26 09:25:45,698] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202106-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202106-citibike-tripdata.parquet
+[2022-03-26 09:25:45,915] {gcs.py:251} INFO - Total Bytes: 127221547 | Bytes Written: 127221547
+[2022-03-26 09:25:45,916] {gcs.py:264} INFO - Object raw/202106-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202106-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:46,100] {gcs.py:645} INFO - Blob raw/202106-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:46,101] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201804-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201804-citibike-tripdata.parquet
+[2022-03-26 09:25:46,299] {gcs.py:251} INFO - Total Bytes: 31839243 | Bytes Written: 31839243
+[2022-03-26 09:25:46,300] {gcs.py:264} INFO - Object raw/201804-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201804-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:46,509] {gcs.py:645} INFO - Blob raw/201804-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:46,511] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201901-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201901-citibike-tripdata.parquet
+[2022-03-26 09:25:46,700] {gcs.py:251} INFO - Total Bytes: 26700796 | Bytes Written: 26700796
+[2022-03-26 09:25:46,702] {gcs.py:264} INFO - Object raw/201901-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201901-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:46,902] {gcs.py:645} INFO - Blob raw/201901-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:46,904] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201906-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201906-citibike-tripdata.parquet
+[2022-03-26 09:25:47,098] {gcs.py:251} INFO - Total Bytes: 57983531 | Bytes Written: 57983531
+[2022-03-26 09:25:47,099] {gcs.py:264} INFO - Object raw/201906-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201906-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:47,298] {gcs.py:645} INFO - Blob raw/201906-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:47,299] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202011-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202011-citibike-tripdata.parquet
+[2022-03-26 09:25:47,468] {gcs.py:251} INFO - Total Bytes: 49680852 | Bytes Written: 49680852
+[2022-03-26 09:25:47,469] {gcs.py:264} INFO - Object raw/202011-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202011-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:47,661] {gcs.py:645} INFO - Blob raw/202011-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:47,662] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201807-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201807-citibike-tripdata.parquet
+[2022-03-26 09:25:47,843] {gcs.py:251} INFO - Total Bytes: 46192548 | Bytes Written: 46192548
+[2022-03-26 09:25:47,844] {gcs.py:264} INFO - Object raw/201807-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201807-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:48,059] {gcs.py:645} INFO - Blob raw/201807-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:48,060] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201911-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201911-citibike-tripdata.parquet
+[2022-03-26 09:25:48,290] {gcs.py:251} INFO - Total Bytes: 40460374 | Bytes Written: 40460374
+[2022-03-26 09:25:48,291] {gcs.py:264} INFO - Object raw/201911-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201911-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:48,479] {gcs.py:645} INFO - Blob raw/201911-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:48,481] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201910-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201910-citibike-tripdata.parquet
+[2022-03-26 09:25:48,676] {gcs.py:251} INFO - Total Bytes: 57048404 | Bytes Written: 57048404
+[2022-03-26 09:25:48,677] {gcs.py:264} INFO - Object raw/201910-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201910-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:48,871] {gcs.py:645} INFO - Blob raw/201910-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:48,873] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202101-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202101-citibike-tripdata.parquet
+[2022-03-26 09:25:49,039] {gcs.py:251} INFO - Total Bytes: 31441286 | Bytes Written: 31441286
+[2022-03-26 09:25:49,040] {gcs.py:264} INFO - Object raw/202101-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202101-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:49,224] {gcs.py:645} INFO - Blob raw/202101-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:49,225] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201806-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201806-citibike-tripdata.parquet
+[2022-03-26 09:25:49,420] {gcs.py:251} INFO - Total Bytes: 47107148 | Bytes Written: 47107148
+[2022-03-26 09:25:49,421] {gcs.py:264} INFO - Object raw/201806-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201806-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:49,615] {gcs.py:645} INFO - Blob raw/201806-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:49,617] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202008-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202008-citibike-tripdata.parquet
+[2022-03-26 09:25:49,782] {gcs.py:251} INFO - Total Bytes: 65510107 | Bytes Written: 65510107
+[2022-03-26 09:25:49,783] {gcs.py:264} INFO - Object raw/202008-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202008-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:49,983] {gcs.py:645} INFO - Blob raw/202008-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:49,984] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201803-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201803-citibike-tripdata.parquet
+[2022-03-26 09:25:50,182] {gcs.py:251} INFO - Total Bytes: 23955033 | Bytes Written: 23955033
+[2022-03-26 09:25:50,184] {gcs.py:264} INFO - Object raw/201803-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201803-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:50,384] {gcs.py:645} INFO - Blob raw/201803-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:50,386] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202009-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202009-citibike-tripdata.parquet
+[2022-03-26 09:25:50,573] {gcs.py:251} INFO - Total Bytes: 70763043 | Bytes Written: 70763043
+[2022-03-26 09:25:50,575] {gcs.py:264} INFO - Object raw/202009-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202009-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:50,884] {gcs.py:645} INFO - Blob raw/202009-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:50,885] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201810-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201810-citibike-tripdata.parquet
+[2022-03-26 09:25:51,066] {gcs.py:251} INFO - Total Bytes: 51272954 | Bytes Written: 51272954
+[2022-03-26 09:25:51,067] {gcs.py:264} INFO - Object raw/201810-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201810-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:51,259] {gcs.py:645} INFO - Blob raw/201810-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:51,260] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202107-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202107-citibike-tripdata.parquet
+[2022-03-26 09:25:51,424] {gcs.py:251} INFO - Total Bytes: 121047413 | Bytes Written: 121047413
+[2022-03-26 09:25:51,425] {gcs.py:264} INFO - Object raw/202107-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202107-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:51,610] {gcs.py:645} INFO - Blob raw/202107-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:51,611] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201902-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201902-citibike-tripdata.parquet
+[2022-03-26 09:25:51,781] {gcs.py:251} INFO - Total Bytes: 26066613 | Bytes Written: 26066613
+[2022-03-26 09:25:51,782] {gcs.py:264} INFO - Object raw/201902-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201902-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:51,980] {gcs.py:645} INFO - Blob raw/201902-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:51,981] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201909-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201909-citibike-tripdata.parquet
+[2022-03-26 09:25:52,181] {gcs.py:251} INFO - Total Bytes: 66548149 | Bytes Written: 66548149
+[2022-03-26 09:25:52,182] {gcs.py:264} INFO - Object raw/201909-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201909-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:52,373] {gcs.py:645} INFO - Blob raw/201909-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:52,374] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201809-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201809-citibike-tripdata.parquet
+[2022-03-26 09:25:52,582] {gcs.py:251} INFO - Total Bytes: 51292693 | Bytes Written: 51292693
+[2022-03-26 09:25:52,583] {gcs.py:264} INFO - Object raw/201809-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201809-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:52,932] {gcs.py:645} INFO - Blob raw/201809-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:52,933] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201811-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201811-citibike-tripdata.parquet
+[2022-03-26 09:25:53,110] {gcs.py:251} INFO - Total Bytes: 34644448 | Bytes Written: 34644448
+[2022-03-26 09:25:53,111] {gcs.py:264} INFO - Object raw/201811-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201811-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:53,301] {gcs.py:645} INFO - Blob raw/201811-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:53,302] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201812-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201812-citibike-tripdata.parquet
+[2022-03-26 09:25:53,471] {gcs.py:251} INFO - Total Bytes: 28041073 | Bytes Written: 28041073
+[2022-03-26 09:25:53,472] {gcs.py:264} INFO - Object raw/201812-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201812-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:53,676] {gcs.py:645} INFO - Blob raw/201812-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:53,677] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201808-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201808-citibike-tripdata.parquet
+[2022-03-26 09:25:53,889] {gcs.py:251} INFO - Total Bytes: 53983230 | Bytes Written: 53983230
+[2022-03-26 09:25:53,890] {gcs.py:264} INFO - Object raw/201808-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201808-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:54,073] {gcs.py:645} INFO - Blob raw/201808-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:54,074] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201905-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201905-citibike-tripdata.parquet
+[2022-03-26 09:25:54,249] {gcs.py:251} INFO - Total Bytes: 52567269 | Bytes Written: 52567269
+[2022-03-26 09:25:54,250] {gcs.py:264} INFO - Object raw/201905-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201905-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:54,434] {gcs.py:645} INFO - Blob raw/201905-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:54,435] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202001-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202001-citibike-tripdata.parquet
+[2022-03-26 09:25:54,609] {gcs.py:251} INFO - Total Bytes: 34031637 | Bytes Written: 34031637
+[2022-03-26 09:25:54,611] {gcs.py:264} INFO - Object raw/202001-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202001-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:54,793] {gcs.py:645} INFO - Blob raw/202001-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:54,795] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202104-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202104-citibike-tripdata.parquet
+[2022-03-26 09:25:54,962] {gcs.py:251} INFO - Total Bytes: 82021970 | Bytes Written: 82021970
+[2022-03-26 09:25:54,963] {gcs.py:264} INFO - Object raw/202104-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202104-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:55,153] {gcs.py:645} INFO - Blob raw/202104-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:55,154] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201801-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201801-citibike-tripdata.parquet
+[2022-03-26 09:25:55,315] {gcs.py:251} INFO - Total Bytes: 17879550 | Bytes Written: 17879550
+[2022-03-26 09:25:55,317] {gcs.py:264} INFO - Object raw/201801-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201801-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:55,505] {gcs.py:645} INFO - Blob raw/201801-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:55,506] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202004-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202004-citibike-tripdata.parquet
+[2022-03-26 09:25:55,683] {gcs.py:251} INFO - Total Bytes: 19354490 | Bytes Written: 19354490
+[2022-03-26 09:25:55,684] {gcs.py:264} INFO - Object raw/202004-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202004-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:55,860] {gcs.py:645} INFO - Blob raw/202004-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:55,865] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202012-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202012-citibike-tripdata.parquet
+[2022-03-26 09:25:56,051] {gcs.py:251} INFO - Total Bytes: 31333355 | Bytes Written: 31333355
+[2022-03-26 09:25:56,055] {gcs.py:264} INFO - Object raw/202012-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202012-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:56,288] {gcs.py:645} INFO - Blob raw/202012-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:56,289] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201904-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201904-citibike-tripdata.parquet
+[2022-03-26 09:25:56,491] {gcs.py:251} INFO - Total Bytes: 48286690 | Bytes Written: 48286690
+[2022-03-26 09:25:56,495] {gcs.py:264} INFO - Object raw/201904-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201904-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:56,691] {gcs.py:645} INFO - Blob raw/201904-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:56,693] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202002-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202002-citibike-tripdata.parquet
+[2022-03-26 09:25:56,878] {gcs.py:251} INFO - Total Bytes: 31528978 | Bytes Written: 31528978
+[2022-03-26 09:25:56,879] {gcs.py:264} INFO - Object raw/202002-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202002-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:57,072] {gcs.py:645} INFO - Blob raw/202002-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:57,074] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202105-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202105-citibike-tripdata.parquet
+[2022-03-26 09:25:57,275] {gcs.py:251} INFO - Total Bytes: 106512662 | Bytes Written: 106512662
+[2022-03-26 09:25:57,278] {gcs.py:264} INFO - Object raw/202105-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202105-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:57,468] {gcs.py:645} INFO - Blob raw/202105-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:57,470] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202103-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202103-citibike-tripdata.parquet
+[2022-03-26 09:25:57,628] {gcs.py:251} INFO - Total Bytes: 61382229 | Bytes Written: 61382229
+[2022-03-26 09:25:57,629] {gcs.py:264} INFO - Object raw/202103-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202103-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:57,820] {gcs.py:645} INFO - Blob raw/202103-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:57,822] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202003-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202003-citibike-tripdata.parquet
+[2022-03-26 09:25:57,974] {gcs.py:251} INFO - Total Bytes: 29602792 | Bytes Written: 29602792
+[2022-03-26 09:25:57,975] {gcs.py:264} INFO - Object raw/202003-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202003-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:58,262] {gcs.py:645} INFO - Blob raw/202003-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:58,263] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202010-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202010-citibike-tripdata.parquet
+[2022-03-26 09:25:58,442] {gcs.py:251} INFO - Total Bytes: 64035482 | Bytes Written: 64035482
+[2022-03-26 09:25:58,444] {gcs.py:264} INFO - Object raw/202010-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202010-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:58,666] {gcs.py:645} INFO - Blob raw/202010-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:58,667] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202006-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202006-citibike-tripdata.parquet
+[2022-03-26 09:25:58,834] {gcs.py:251} INFO - Total Bytes: 51819325 | Bytes Written: 51819325
+[2022-03-26 09:25:58,835] {gcs.py:264} INFO - Object raw/202006-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202006-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:59,028] {gcs.py:645} INFO - Blob raw/202006-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:59,029] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202109-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202109-citibike-tripdata.parquet
+[2022-03-26 09:25:59,229] {gcs.py:251} INFO - Total Bytes: 129603685 | Bytes Written: 129603685
+[2022-03-26 09:25:59,231] {gcs.py:264} INFO - Object raw/202109-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202109-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:59,429] {gcs.py:645} INFO - Blob raw/202109-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:59,431] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202111-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202111-citibike-tripdata.parquet
+[2022-03-26 09:25:59,626] {gcs.py:251} INFO - Total Bytes: 85705128 | Bytes Written: 85705128
+[2022-03-26 09:25:59,627] {gcs.py:264} INFO - Object raw/202111-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202111-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:25:59,832] {gcs.py:645} INFO - Blob raw/202111-citibike-tripdata.parquet deleted.
+[2022-03-26 09:25:59,834] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201805-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201805-citibike-tripdata.parquet
+[2022-03-26 09:25:59,992] {gcs.py:251} INFO - Total Bytes: 44068094 | Bytes Written: 44068094
+[2022-03-26 09:25:59,993] {gcs.py:264} INFO - Object raw/201805-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201805-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:26:00,188] {gcs.py:645} INFO - Blob raw/201805-citibike-tripdata.parquet deleted.
+[2022-03-26 09:26:00,189] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202110-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202110-citibike-tripdata.parquet
+[2022-03-26 09:26:00,381] {gcs.py:251} INFO - Total Bytes: 121133634 | Bytes Written: 121133634
+[2022-03-26 09:26:00,382] {gcs.py:264} INFO - Object raw/202110-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202110-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:26:00,722] {gcs.py:645} INFO - Blob raw/202110-citibike-tripdata.parquet deleted.
+[2022-03-26 09:26:00,723] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201903-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201903-citibike-tripdata.parquet
+[2022-03-26 09:26:00,910] {gcs.py:251} INFO - Total Bytes: 36471464 | Bytes Written: 36471464
+[2022-03-26 09:26:00,912] {gcs.py:264} INFO - Object raw/201903-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201903-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:26:01,086] {gcs.py:645} INFO - Blob raw/201903-citibike-tripdata.parquet deleted.
+[2022-03-26 09:26:01,087] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202102-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202102-citibike-tripdata.parquet
+[2022-03-26 09:26:01,238] {gcs.py:251} INFO - Total Bytes: 26421085 | Bytes Written: 26421085
+[2022-03-26 09:26:01,239] {gcs.py:264} INFO - Object raw/202102-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202102-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:26:01,469] {gcs.py:645} INFO - Blob raw/202102-citibike-tripdata.parquet deleted.
+[2022-03-26 09:26:01,470] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202108-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202108-citibike-tripdata.parquet
+[2022-03-26 09:26:01,638] {gcs.py:251} INFO - Total Bytes: 121602143 | Bytes Written: 121602143
+[2022-03-26 09:26:01,665] {gcs.py:264} INFO - Object raw/202108-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202108-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:26:01,885] {gcs.py:645} INFO - Blob raw/202108-citibike-tripdata.parquet deleted.
+[2022-03-26 09:26:01,886] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202112-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202112-citibike-tripdata.parquet
+[2022-03-26 09:26:02,066] {gcs.py:251} INFO - Total Bytes: 69687915 | Bytes Written: 69687915
+[2022-03-26 09:26:02,067] {gcs.py:264} INFO - Object raw/202112-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202112-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:26:02,269] {gcs.py:645} INFO - Blob raw/202112-citibike-tripdata.parquet deleted.
+[2022-03-26 09:26:02,271] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201912-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201912-citibike-tripdata.parquet
+[2022-03-26 09:26:02,441] {gcs.py:251} INFO - Total Bytes: 26441696 | Bytes Written: 26441696
+[2022-03-26 09:26:02,442] {gcs.py:264} INFO - Object raw/201912-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201912-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:26:02,635] {gcs.py:645} INFO - Blob raw/201912-citibike-tripdata.parquet deleted.
+[2022-03-26 09:26:02,637] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202005-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202005-citibike-tripdata.parquet
+[2022-03-26 09:26:02,815] {gcs.py:251} INFO - Total Bytes: 41151078 | Bytes Written: 41151078
+[2022-03-26 09:26:02,817] {gcs.py:264} INFO - Object raw/202005-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202005-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:26:02,989] {gcs.py:645} INFO - Blob raw/202005-citibike-tripdata.parquet deleted.
+[2022-03-26 09:26:02,991] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202007-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202007-citibike-tripdata.parquet
+[2022-03-26 09:26:03,190] {gcs.py:251} INFO - Total Bytes: 57897776 | Bytes Written: 57897776
+[2022-03-26 09:26:03,191] {gcs.py:264} INFO - Object raw/202007-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202007-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:26:03,391] {gcs.py:645} INFO - Blob raw/202007-citibike-tripdata.parquet deleted.
+[2022-03-26 09:26:03,392] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/201802-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/201802-citibike-tripdata.parquet
+[2022-03-26 09:26:03,550] {gcs.py:251} INFO - Total Bytes: 20783211 | Bytes Written: 20783211
+[2022-03-26 09:26:03,551] {gcs.py:264} INFO - Object raw/201802-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/201802-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:26:03,743] {gcs.py:645} INFO - Blob raw/201802-citibike-tripdata.parquet deleted.
+[2022-03-26 09:26:03,745] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_citibike_project/raw/202201-citibike-tripdata.parquet to gs://dtc_citibike_project/citi_bike_files/202201-citibike-tripdata.parquet
+[2022-03-26 09:26:03,937] {gcs.py:251} INFO - Total Bytes: 42076230 | Bytes Written: 42076230
+[2022-03-26 09:26:03,972] {gcs.py:264} INFO - Object raw/202201-citibike-tripdata.parquet in bucket dtc_citibike_project rewritten to object citi_bike_files/202201-citibike-tripdata.parquet in bucket dtc_citibike_project
+[2022-03-26 09:26:04,175] {gcs.py:645} INFO - Blob raw/202201-citibike-tripdata.parquet deleted.
+[2022-03-26 09:26:04,191] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=project_gcs_2_bq, task_id=gcs_2_gcs_project_task, execution_date=20220325T000000, start_date=20220326T092538, end_date=20220326T092604
+[2022-03-26 09:26:04,256] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-26 09:26:04,322] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-03-26 10:02:03,929] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: project_gcs_2_bq.gcs_2_gcs_project_task scheduled__2022-03-25T00:00:00+00:00 [queued]>
+[2022-03-26 10:02:03,944] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: project_gcs_2_bq.gcs_2_gcs_project_task scheduled__2022-03-25T00:00:00+00:00 [queued]>
+[2022-03-26 10:02:03,945] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 10:02:03,946] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-03-26 10:02:03,947] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 10:02:03,961] {taskinstance.py:1259} INFO - Executing <Task(GCSToGCSOperator): gcs_2_gcs_project_task> on 2022-03-25 00:00:00+00:00
+[2022-03-26 10:02:03,974] {standard_task_runner.py:52} INFO - Started process 3453 to run task
+[2022-03-26 10:02:03,980] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'project_gcs_2_bq', 'gcs_2_gcs_project_task', 'scheduled__2022-03-25T00:00:00+00:00', '--job-id', '1251', '--raw', '--subdir', 'DAGS_FOLDER/gcs_2_bq.py', '--cfg-path', '/tmp/tmpqyzl9dyu', '--error-file', '/tmp/tmpki0ipmqb']
+[2022-03-26 10:02:03,982] {standard_task_runner.py:77} INFO - Job 1251: Subtask gcs_2_gcs_project_task
+[2022-03-26 10:02:04,058] {logging_mixin.py:109} INFO - Running <TaskInstance: project_gcs_2_bq.gcs_2_gcs_project_task scheduled__2022-03-25T00:00:00+00:00 [running]> on host c800f4dda314
+[2022-03-26 10:02:04,128] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=project_gcs_2_bq
+AIRFLOW_CTX_TASK_ID=gcs_2_gcs_project_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-25T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-03-25T00:00:00+00:00
+[2022-03-26 10:02:04,131] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-03-26 10:02:04,132] {gcs_to_gcs.py:346} INFO - Delimiter ignored because wildcard is in prefix
+[2022-03-26 10:02:04,702] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=project_gcs_2_bq, task_id=gcs_2_gcs_project_task, execution_date=20220325T000000, start_date=20220326T100203, end_date=20220326T100204
+[2022-03-26 10:02:04,757] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-26 10:02:04,807] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

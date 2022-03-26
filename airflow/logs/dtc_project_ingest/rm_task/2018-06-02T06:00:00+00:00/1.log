@@ -1,0 +1,116 @@
+[2022-03-23 08:57:48,733] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.rm_task scheduled__2018-06-02T06:00:00+00:00 [queued]>
+[2022-03-23 08:57:48,744] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.rm_task scheduled__2018-06-02T06:00:00+00:00 [queued]>
+[2022-03-23 08:57:48,745] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-23 08:57:48,746] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-03-23 08:57:48,746] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-23 08:57:48,761] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): rm_task> on 2018-06-02 06:00:00+00:00
+[2022-03-23 08:57:48,767] {standard_task_runner.py:52} INFO - Started process 619 to run task
+[2022-03-23 08:57:48,772] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dtc_project_ingest', 'rm_task', 'scheduled__2018-06-02T06:00:00+00:00', '--job-id', '664', '--raw', '--subdir', 'DAGS_FOLDER/project_data_ingestion.py', '--cfg-path', '/tmp/tmp8j_h4a4p', '--error-file', '/tmp/tmpuhfk_dxf']
+[2022-03-23 08:57:48,774] {standard_task_runner.py:77} INFO - Job 664: Subtask rm_task
+[2022-03-23 08:57:48,845] {logging_mixin.py:109} INFO - Running <TaskInstance: dtc_project_ingest.rm_task scheduled__2018-06-02T06:00:00+00:00 [running]> on host 7127e26385ba
+[2022-03-23 08:57:48,884] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-03-23 08:57:48,904] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dtc_project_ingest
+AIRFLOW_CTX_TASK_ID=rm_task
+AIRFLOW_CTX_EXECUTION_DATE=2018-06-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2018-06-02T06:00:00+00:00
+[2022-03-23 08:57:48,906] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-03-23 08:57:48,908] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'rm /opt/***/201806-citibike-tripdata.csv /opt/***/201806-citibike-tripdata.parquet']
+[2022-03-23 08:57:48,924] {subprocess.py:85} INFO - Output:
+[2022-03-23 08:57:49,015] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-03-23 08:57:49,049] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=dtc_project_ingest, task_id=rm_task, execution_date=20180602T060000, start_date=20220323T085748, end_date=20220323T085749
+[2022-03-23 08:57:49,107] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-23 08:57:49,141] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-03-23 15:59:21,834] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.rm_task scheduled__2018-06-02T06:00:00+00:00 [queued]>
+[2022-03-23 15:59:21,850] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.rm_task scheduled__2018-06-02T06:00:00+00:00 [queued]>
+[2022-03-23 15:59:21,851] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-23 15:59:21,852] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-03-23 15:59:21,853] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-23 15:59:21,868] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): rm_task> on 2018-06-02 06:00:00+00:00
+[2022-03-23 15:59:21,875] {standard_task_runner.py:52} INFO - Started process 3641 to run task
+[2022-03-23 15:59:21,880] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dtc_project_ingest', 'rm_task', 'scheduled__2018-06-02T06:00:00+00:00', '--job-id', '965', '--raw', '--subdir', 'DAGS_FOLDER/project_data_ingestion.py', '--cfg-path', '/tmp/tmp3unc2reg', '--error-file', '/tmp/tmp3hq7x5kc']
+[2022-03-23 15:59:21,883] {standard_task_runner.py:77} INFO - Job 965: Subtask rm_task
+[2022-03-23 15:59:21,990] {logging_mixin.py:109} INFO - Running <TaskInstance: dtc_project_ingest.rm_task scheduled__2018-06-02T06:00:00+00:00 [running]> on host 7127e26385ba
+[2022-03-23 15:59:22,045] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-03-23 15:59:22,072] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dtc_project_ingest
+AIRFLOW_CTX_TASK_ID=rm_task
+AIRFLOW_CTX_EXECUTION_DATE=2018-06-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2018-06-02T06:00:00+00:00
+[2022-03-23 15:59:22,075] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-03-23 15:59:22,077] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'rm /opt/***/201806-citibike-tripdata.csv /opt/***/201806-citibike-tripdata.parquet']
+[2022-03-23 15:59:22,094] {subprocess.py:85} INFO - Output:
+[2022-03-23 15:59:22,209] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-03-23 15:59:22,255] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=dtc_project_ingest, task_id=rm_task, execution_date=20180602T060000, start_date=20220323T155921, end_date=20220323T155922
+[2022-03-23 15:59:22,298] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-23 15:59:22,331] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-03-26 10:38:24,166] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.rm_task scheduled__2018-06-02T06:00:00+00:00 [queued]>
+[2022-03-26 10:38:24,187] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.rm_task scheduled__2018-06-02T06:00:00+00:00 [queued]>
+[2022-03-26 10:38:24,188] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 10:38:24,189] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-03-26 10:38:24,190] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 10:38:24,208] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): rm_task> on 2018-06-02 06:00:00+00:00
+[2022-03-26 10:38:24,218] {standard_task_runner.py:52} INFO - Started process 5393 to run task
+[2022-03-26 10:38:24,223] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dtc_project_ingest', 'rm_task', 'scheduled__2018-06-02T06:00:00+00:00', '--job-id', '1316', '--raw', '--subdir', 'DAGS_FOLDER/project_data_ingestion.py', '--cfg-path', '/tmp/tmp5l2o58vf', '--error-file', '/tmp/tmpojmue5wg']
+[2022-03-26 10:38:24,225] {standard_task_runner.py:77} INFO - Job 1316: Subtask rm_task
+[2022-03-26 10:38:24,328] {logging_mixin.py:109} INFO - Running <TaskInstance: dtc_project_ingest.rm_task scheduled__2018-06-02T06:00:00+00:00 [running]> on host c800f4dda314
+[2022-03-26 10:38:24,400] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-03-26 10:38:24,436] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dtc_project_ingest
+AIRFLOW_CTX_TASK_ID=rm_task
+AIRFLOW_CTX_EXECUTION_DATE=2018-06-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2018-06-02T06:00:00+00:00
+[2022-03-26 10:38:24,440] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-03-26 10:38:24,443] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'rm /opt/***/201806-citibike-tripdata.csv /opt/***/201806-citibike-tripdata.parquet']
+[2022-03-26 10:38:24,465] {subprocess.py:85} INFO - Output:
+[2022-03-26 10:38:24,613] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-03-26 10:38:24,671] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=dtc_project_ingest, task_id=rm_task, execution_date=20180602T060000, start_date=20220326T103824, end_date=20220326T103824
+[2022-03-26 10:38:24,721] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-26 10:38:24,766] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-03-26 15:28:22,810] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.rm_task scheduled__2018-06-02T06:00:00+00:00 [queued]>
+[2022-03-26 15:28:22,829] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.rm_task scheduled__2018-06-02T06:00:00+00:00 [queued]>
+[2022-03-26 15:28:22,831] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 15:28:22,832] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-03-26 15:28:22,833] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-26 15:28:22,859] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): rm_task> on 2018-06-02 06:00:00+00:00
+[2022-03-26 15:28:22,873] {standard_task_runner.py:52} INFO - Started process 19935 to run task
+[2022-03-26 15:28:22,889] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dtc_project_ingest', 'rm_task', 'scheduled__2018-06-02T06:00:00+00:00', '--job-id', '1567', '--raw', '--subdir', 'DAGS_FOLDER/project_data_ingestion.py', '--cfg-path', '/tmp/tmp09xhlfqw', '--error-file', '/tmp/tmpfeanalj7']
+[2022-03-26 15:28:22,891] {standard_task_runner.py:77} INFO - Job 1567: Subtask rm_task
+[2022-03-26 15:28:23,017] {logging_mixin.py:109} INFO - Running <TaskInstance: dtc_project_ingest.rm_task scheduled__2018-06-02T06:00:00+00:00 [running]> on host c800f4dda314
+[2022-03-26 15:28:23,296] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-03-26 15:28:23,346] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dtc_project_ingest
+AIRFLOW_CTX_TASK_ID=rm_task
+AIRFLOW_CTX_EXECUTION_DATE=2018-06-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2018-06-02T06:00:00+00:00
+[2022-03-26 15:28:23,350] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-03-26 15:28:23,352] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'rm /opt/***/201806-citibike-tripdata.csv /opt/***/201806-citibike-tripdata.parquet']
+[2022-03-26 15:28:23,385] {subprocess.py:85} INFO - Output:
+[2022-03-26 15:28:23,609] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-03-26 15:28:23,653] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=dtc_project_ingest, task_id=rm_task, execution_date=20180602T060000, start_date=20220326T152822, end_date=20220326T152823
+[2022-03-26 15:28:23,705] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-26 15:28:23,804] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

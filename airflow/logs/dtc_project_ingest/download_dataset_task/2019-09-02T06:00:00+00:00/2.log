@@ -1,0 +1,25 @@
+[2022-03-21 23:41:11,125] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.download_dataset_task scheduled__2019-09-02T06:00:00+00:00 [queued]>
+[2022-03-21 23:41:11,171] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dtc_project_ingest.download_dataset_task scheduled__2019-09-02T06:00:00+00:00 [queued]>
+[2022-03-21 23:41:11,172] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-21 23:41:11,174] {taskinstance.py:1239} INFO - Starting attempt 2 of 2
+[2022-03-21 23:41:11,198] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-21 23:41:11,302] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_dataset_task> on 2019-09-02 06:00:00+00:00
+[2022-03-21 23:41:11,316] {standard_task_runner.py:52} INFO - Started process 3684 to run task
+[2022-03-21 23:41:11,339] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dtc_project_ingest', 'download_dataset_task', 'scheduled__2019-09-02T06:00:00+00:00', '--job-id', '632', '--raw', '--subdir', 'DAGS_FOLDER/project_data_ingestion.py', '--cfg-path', '/tmp/tmpxph79fnv', '--error-file', '/tmp/tmpgnuwisw4']
+[2022-03-21 23:41:11,342] {standard_task_runner.py:77} INFO - Job 632: Subtask download_dataset_task
+[2022-03-21 23:41:11,468] {logging_mixin.py:109} INFO - Running <TaskInstance: dtc_project_ingest.download_dataset_task scheduled__2019-09-02T06:00:00+00:00 [running]> on host b91e76d7fa3b
+[2022-03-21 23:41:11,556] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-03-21 23:41:11,601] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dtc_project_ingest
+AIRFLOW_CTX_TASK_ID=download_dataset_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-09-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-09-02T06:00:00+00:00
+[2022-03-21 23:41:11,604] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-03-21 23:41:11,606] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://s3.amazonaws.com/tripdata/201909-citibike-tripdata.csv.zip > /opt/***/201909-citibike-tripdata.csv.zip']
+[2022-03-21 23:41:11,630] {subprocess.py:85} INFO - Output:
